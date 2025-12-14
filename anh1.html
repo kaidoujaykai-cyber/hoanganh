@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mini - Cao Hoàng Anh</title>
+    <style>
+       /* Thiết lập cơ bản */
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #e0ffff; /* lightcyan nhạt hơn */
+            color: #333; 
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+       /* Container cho các section */
+        .section-container {
+            padding: 30px;
+            margin: 20px 10px;
+            max-width: 700px;
+            width: 90%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: left; 
+        }
+
+       /* Tiêu đề chính và phụ */
+        h1.section-title, 
+        h1.main-title, 
+        footer h1 {
+            color: #ffd700; /* gold */
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #ffd700;
+            padding-bottom: 10px;
+        }
+
+        h2.sub-section-title {
+            color: #ffd700; 
+            margin-top: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+       /* Định dạng avatar */
+        .avatar {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px auto;
+            border: 5px solid #ffd700; 
+            object-fit: cover;
+        }
+
+       /* Định dạng cho văn bản sở thích */
+        .interests-list {
+            list-style-type: none; 
+            padding-left: 0;
+        }
+        .interests-list li {
+            margin-bottom: 5px;
+        }
+        
+       /* Định dạng liên kết */
+        a {
+            color: #000000;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #8b0000; /* darkred */
+            text-decoration: underline;
+        }
+
+       /* Footer */
+        footer {
+            width: 100%;
+            padding: 20px 0;
+            background-color: #5d748d; 
+            color: white;
+            text-align: center;
+            margin-top: 40px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #ffe082; 
+            text-decoration: underline;
+        }
+        
+       /* Đường kẻ phân cách */
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ccc;
+            width: 80%;
+            margin: 30px auto;
+        }
+
+       /* Định dạng hình ảnh sản phẩm */
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+       /* Định dạng thông tin footer */
+        .footer-info {
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="home" class="section-container">
+        <img src="https://i.postimg.cc/mkfhw09Q/Messenger-creation-E6977206-1439-428D-8350-97BB81D55252.jpg" alt="Ảnh đại diện Cao Hoàng Anh" class="avatar">
+        <h1 class="main-title">CAO HOÀNG ANH</h1>
+        <p class="tagline" style="text-align: center; font-size: 1.2em; font-style: italic;">"1290_min"</p>
+    </section>
+
+    <hr>
+
+    <section id="about" class="section-container">
+        <h1 class="section-title">GIỚI THIỆU BẢN THÂN</h1>
+        <p><strong>Học vấn:</strong> 12/12</p>
+        <p>
+            * Học tại trường *THCS-THPT MINH HOÀ*<br>
+            * Là thành viên Đội tuyển Học sinh Giỏi nhá. Vip ha
+        </p>
+        <p><strong>Môn học yêu thích:</strong> Hóa học</p>
+        
+        <p>
+            <strong>Sở thích:</strong>
+            <ul class="interests-list">
+                <li>Nghe nhạc🤟</li>
+                <li>Ngủ 😴😴</li>
+                <li> siêu mê ngôn tình luôn<li>
+                <li>Khá là có duyên với thể thao đặc biệt là bóng chuyền(🏐)</li>
+                <li>Thích ra ngoài chơi nhưng khá hướng nội</li>
+            </ul>
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="portfolio" class="section-container">
+        <h1 class="section-title">SẢN PHẨM / HOẠT ĐỘNG</h1>
+
+        <div class="product-item">
+            <h2 class="sub-section-title">1. Video TikTok</h2>
+            <p> mục nho nhỏ: <a href="https://vt.tiktok.com/ZSP1PcGJk/" target="_blank">https://vt.tiktok.com/ZSP1PcGJk/</a></p>
+        </div>
+        
+        <div class="product-item">
+            <h2 class="sub-section-title">2.mục yêu thích</h2>
+            <p>video: <a href="https://vt.tiktok.com/ZSPSRAPGR/" target="_blank">https://vt.tiktok.com/ZSPSRAPGR/</a></p>
+        </div>
+
+        <div class="product-item">
+            <h2 class="sub-section-title">3. Hình ảnh minh họa</h2>
+            <img src="https://i.postimg.cc/sDLqNsXk/Messenger-creation-5BA0F866-9F42-4472-A8FF-8777CD7E5319.jpg" alt="🐰 thông minh><🦊khờ khạo" class="product-image">
+        </div>
+
+        </section>
+
+    <footer>
+        <h1 class="section-title" style="border-bottom: none; padding-bottom: 0;">LIÊN HỆ</h1>
+        <div class="footer-info">
+            <p><strong>Email:</strong> hoanganh22082008bp@gmail.com</p>
+            <p>
+                <strong>Liên kết mạng xã hội:</strong> 
+                <a href="#">https://www.facebook.com/share/1JGn2G2b6i/</a> | 
+           
+                
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
